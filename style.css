@@ -1,0 +1,74 @@
+*{
+  background-color:#FDF5DF;
+ 
+
+}
+.head{
+ /* background-image: url(Image/daffodil.jpg); */
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+
+  
+
+  
+}
+
+
+.imgdaffo{
+  width: 50%;
+  height: 50%;
+}
+
+.imgdaffo img{
+max-height: 100%;
+max-width: 100%;
+}
+.name{
+  
+  padding: 0;
+  margin:0;
+  display:grid;
+  grid-template-columns:  1fr  ;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px,auto);
+ 
+}
+
+
+
+/*
+.shaon{
+    text-align: center;
+    text-decoration: dotted;
+    border: 5px dotted red;
+    padding: 0px;
+    margin-top: 50px;
+    font-size: 50px;
+    cursor: pointer;
+    display: grid;
+   
+
+}
+*/
+.s1,.s2,.s3,.s4{
+    list-style-type:none;
+    text-align: center;
+    border: 1px dotted rgba(37, 224, 164, 0.429);
+    
+}
+.img{
+  padding: 0;
+  width: auto;
+  height: 30px;
+   
+}
+.img:hover{
+width:auto;
+height: 45px;
+animation-delay: .5s;
+cursor: pointer;
+}
+.phone{
+  border-radius: 30px;
+}
